@@ -3,7 +3,7 @@
 Welcome to my analysis of freight and transportation for "Darnel Group." This project was developed with the goal of fostering both my personal growth and contributing to the company from an analytical perspective. It explores convenient freight options and strategies to minimize costs when transporting to different locations.
 
 The data was provided by the company: 
-[FLETES LARRAZ 2024](./FLETES%20LARRAZ%202024.xlsx), which provides a foundation for my analysis, containing detailed information on freight shipments, including pricing, service details, and tracking information. Through a series of Python scripts, I explore key questions such as the most visited locations, cost per location, the percentage of freight relative to revenue for "Darmel Group"
+[FLETES LARRAZ 2024](./FLETES%20LARRAZ%202024.xlsx), which provides a foundation for my analysis, containing detailed information on freight shipments, including pricing, service details, and tracking information. Through a series of Python scripts, I explore key questions such as the most visited locations, cost per location, the percentage of freight relative to revenue for "Darnel Group"
 
 # The Questions
 
@@ -17,7 +17,7 @@ The data was provided by the company:
 
 
 # Tools I Used
-For my deep dive into Darmel´s transportation, I harnessed the power of several key tools:
+For my deep dive into Darnel´s transportation, I harnessed the power of several key tools:
 
 * Python: The backbone of my analysis, allowing me to analyze the data and find critical insights.I also used the following Python libraries:
   * Pandas Library: This was used to analyze the data.
@@ -127,13 +127,13 @@ It´s important to mention, that the optimal percentage is less than 5%.
 
 Rosario stands out prominently, with more than 30% of its transactions involving a declared value, significantly surpassing all other localities.
 
-Localities like Gerli and Burzaco show moderately higher percentages (around 10–15%), positioning them as the second and third highest after Rosario. This is due to their increase in distance between Darmel´s factory and their delivery point.
+Localities like Gerli and Burzaco show moderately higher percentages (around 10–15%), positioning them as the second and third highest after Rosario. This is due to their increase in distance between Darnel´s factory and their delivery point.
 
 Localities such as CABA, Ciudadela, and Morón are relatively consistent in having a small percentage of declared value, indicating uniform behavior across these regions. 
 
 ## 3. Which of the two service providers offers the most cost-effective solution?
 
-To find out which service provider a service that better meets the economic needs of the company we will use some data given by Darmel´s general manager.
+To find out which service provider a service that better meets the economic needs of the company we will use some data given by Darnel´s general manager.
 
 #### First option (Provider A):
 The first provider charges depending on the location and the amount of destinations of the freight.
@@ -214,7 +214,7 @@ Throughout this project, I deepened my understanding on how companies work with 
 * Realistic Business Case: Throughout this project I was able to use all my business knowledge in a real case scenario. Having previous knowledge, helped me to analyze the data with detail and dig deeper into it and thus obtatining the best possible conclusions.
 
 ## Insights
-This project provided several general insights into Darmel´s transport logistics:
+This project provided several general insights into Darnel´s transport logistics:
 
 * Uneven Distribution of Trips and Costs: CABA is the most frequently traveled destination due to its economic and transportation centrality, while Rosario has a significantly higher average trip cost due to its greater distance.
 
@@ -236,7 +236,7 @@ Balancing Breadth and Depth: Deciding how deeply to dive into each analysis whil
 
 # Conclusion
 
-This exploration has been a great learning experience, allowing me to apply my technical skills and business knowledge to a real-world case. By analyzing Darmel Group’s freight data, I gained valuable insights into cost structures, provider efficiency, and transport logistics.
+This exploration has been a great learning experience, allowing me to apply my technical skills and business knowledge to a real-world case. By analyzing Darnel Group’s freight data, I gained valuable insights into cost structures, provider efficiency, and transport logistics.
 
 A key takeaway is that Provider B is consistently the most cost-effective option, especially when multiple destinations are involved. Additionally, understanding the uneven distribution of trips and costs helped clarify why locations like Rosario incur significantly higher freight expenses. Identifying cost percentages relative to the declared value also provided a clear picture of which destinations require closer cost monitoring.
 
