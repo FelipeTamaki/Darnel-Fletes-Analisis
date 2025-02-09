@@ -89,7 +89,7 @@ ax[1].set_title("Costos Promedio por Localidad")
 ax[1].yaxis.set_major_formatter(mticker.FuncFormatter(lambda x, _: f'{x:,.0f}'))
 ```
 ### Results
-![Visualization By Location](Images\Analisis%20per%20location.png)
+![Visualization By Location](Images/Analisis%20per%20location.png)
 
 ### Insights
 
@@ -120,7 +120,7 @@ ax.set_title("Porcentaje Valor Declarado por Localidad")
 ax.set_xticklabels(df_localidades["LOCALIDAD"].unique(), rotation=90)
 ```
 ### Results
-![Visualization By Location](Images\Porcentaje%20valor%20declarado.png)
+![Visualization By Location](Images/Porcentaje%20valor%20declarado.png)
 
 ### Insights
 It´s important to mention, that the optimal percentage is less than 5%.
@@ -169,7 +169,7 @@ ax[1].set_yticks(np.arange(0, max_value + 1, step=1))
 ```
 
 ### Results
-![Convinient provider](Images\Proveedor%20conveniente.png)
+![Convinient provider](Images/Proveedor%20conveniente.png)
 
 ### Insights
 
@@ -192,7 +192,7 @@ sns.scatterplot(data=df_viajes, x="Cantidad_de_Destinos", y="PROVEEDOR_B", label
 ```
 
 ### Results
-![Relation between amount of destinations and both providers](Images\Relacion%20costo%20por%20proveedor%20y%20cantidad%20de%20destinos.png)
+![Relation between amount of destinations and both providers](Images/Relacion%20costo%20por%20proveedor%20y%20cantidad%20de%20destinos.png)
 
 ### Insights
 Cost Differences Between Providers:
